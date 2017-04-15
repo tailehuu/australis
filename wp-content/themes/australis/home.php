@@ -9,4 +9,21 @@
  */
 
 ?>
-<h1>Welcome to Australis!</h1>
+
+<!-- header -->
+<?php get_header(); ?>
+
+<!-- about -->
+<?php get_template_part('about'); ?>
+
+<!-- services -->
+<?php get_template_part('services'); ?>
+
+<!-- portfolio -->
+<?php get_template_part('portfolio'); ?>
+
+<!-- Map -->
+<?php get_template_part('map'); ?>
+
+<!-- footer -->
+<?php get_footer(); ?>

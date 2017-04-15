@@ -1,6 +1,6 @@
 <?php
 /**
- * Australis functions and definitions
+ * Functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -46,8 +46,8 @@ function australis_setup()
      * Add support for two custom navigation menus.
      */
     register_nav_menus(array(
-        'home-menu' => __('Home Menu', 'australis'),
-        'primary-menu' => __('Primary Menu', 'australis')
+        'primary-menu' => __('Primary Menu', 'australis'),
+        'secondary-menu' => __('Secondary Menu', 'australis')
     ));
 
     /*
