@@ -21,22 +21,15 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+        <?php wp_nav_menu(array(
+            'theme_location' => is_home() ? 'primary-menu' : 'primary-menu',
+
+            'container_id' => 'bs-example-navbar-collapse-1',
+            'container_class' => 'collapse navbar-collapse',
+
+            'menu_class' => 'nav navbar-nav navbar-right',
+            'items_wrap' => '<ul class="%2$s">%3$s</ul>',
+        )); ?>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->

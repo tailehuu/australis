@@ -20,7 +20,7 @@
 <?php get_template_part('services'); ?>
 
 <!-- portfolio -->
-<?php get_template_part('portfolio'); ?>
+<?php get_template_part('template-parts/portfolio/portfolio'); ?>
 
 <!-- Map -->
 <?php get_template_part('map'); ?>

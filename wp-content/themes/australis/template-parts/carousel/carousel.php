@@ -19,27 +19,23 @@
 
     <!-- Wrapper for Slides -->
     <div class="carousel-inner">
-        <div class="item active">
-            <!-- Set the first background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/images/header/au1.jpg');"></div>
-            <div class="carousel-caption">
-                <h2>Multivitamin</h2>
+        <?php
+        global $post;
+        $i = 0;
+        $args = array('category' => 3);
+        $myposts = get_posts($args);
+        foreach ($myposts as $post) : setup_postdata($post);
+            $i++;
+            ?>
+            <div class="item <?php echo $i == 1 ? "active" : ""; ?>">
+                <div class="fill"
+                     style="background-image:url(<?php the_post_thumbnail_url('full'); ?>);"></div>
+                <div class="carousel-caption">
+                    <h2><?php the_title(); ?></h2>
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <!-- Set the second background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/images/header/au2.jpg');"></div>
-            <div class="carousel-caption">
-                <h2>Fruits</h2>
-            </div>
-        </div>
-        <div class="item">
-            <!-- Set the third background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/images/header/au3.jpeg');"></div>
-            <div class="carousel-caption">
-                <h2>Flowers</h2>
-            </div>
-        </div>
+        <?php endforeach;
+        wp_reset_postdata(); ?>
     </div>
 
     <!-- Controls -->
