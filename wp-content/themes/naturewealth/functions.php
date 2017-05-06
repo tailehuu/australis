@@ -5,7 +5,7 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package WordPress
- * @subpackage australis
+ * @subpackage naturewealth
  * @since 1.0
  * @version 1.0
  */
@@ -24,13 +24,13 @@ if (!isset($content_width))
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function australis_setup()
+function naturewealth_setup()
 {
     /**
      * Make theme available for translation.
      * Translations can be placed in the /languages/ directory.
      */
-    load_theme_textdomain('australis', get_template_directory() . '/languages');
+    load_theme_textdomain('naturewealth', get_template_directory() . '/languages');
 
     // Add default posts and comments RSS feed links to head.
     add_theme_support('automatic-feed-links');
@@ -46,8 +46,8 @@ function australis_setup()
      * Add support for two custom navigation menus.
      */
     register_nav_menus(array(
-        'primary-menu' => __('Primary Menu', 'australis'),
-        'secondary-menu' => __('Secondary Menu', 'australis')
+        'primary-menu' => __('Primary Menu', 'naturewealth'),
+        'secondary-menu' => __('Secondary Menu', 'naturewealth')
     ));
 
     /*
@@ -66,17 +66,17 @@ function australis_setup()
     ));
 }
 
-add_action('after_setup_theme', 'australis_setup');
+add_action('after_setup_theme', 'naturewealth_setup');
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function australis_widgets_init()
+function naturewealth_widgets_init()
 {
     register_sidebar(array(
-        'name' => __('Primary Sidebar', 'australis'),
+        'name' => __('Primary Sidebar', 'naturewealth'),
         'id' => 'primary-sidebar',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget' => '</aside>',
@@ -85,7 +85,7 @@ function australis_widgets_init()
     ));
 
     register_sidebar(array(
-        'name' => __('Secondary Sidebar', 'australis'),
+        'name' => __('Secondary Sidebar', 'naturewealth'),
         'id' => 'secondary-sidebar',
         'before_widget' => '<ul><li id="%1$s" class="widget %2$s">',
         'after_widget' => '</li></ul>',
@@ -94,12 +94,12 @@ function australis_widgets_init()
     ));
 }
 
-add_action('widgets_init', 'australis_widgets_init');
+add_action('widgets_init', 'naturewealth_widgets_init');
 
 /**
  * Enqueue scripts and styles.
  */
-function australis_scripts()
+function naturewealth_scripts()
 {
     // css
     // style.css
@@ -135,7 +135,7 @@ function australis_scripts()
     }
 }
 
-add_action('wp_enqueue_scripts', 'australis_scripts');
+add_action('wp_enqueue_scripts', 'naturewealth_scripts');
 
 // menu: add class function
 function add_menu_attributes( $atts, $item, $args ) {
@@ -160,10 +160,10 @@ add_action( 'wp_enqueue_scripts', 'load_old_jquery_fix', 100 );
  * @param int $length Excerpt length.
  * @return int (Maybe) modified excerpt length.
  */
-function australis_custom_excerpt_length( $length) {
+function naturewealth_custom_excerpt_length( $length) {
     return 10;
 }
-add_filter( 'excerpt_length', 'australis_custom_excerpt_length', 999 );
+add_filter( 'excerpt_length', 'naturewealth_custom_excerpt_length', 999 );
 
 /**
  * Filter the excerpt "read more" string.
@@ -171,7 +171,7 @@ add_filter( 'excerpt_length', 'australis_custom_excerpt_length', 999 );
  * @param string $more "Read more" excerpt string.
  * @return string (Maybe) modified "read more" excerpt string.
  */
-function australis_excerpt_more( $more ) {
+function naturewealth_excerpt_more( $more ) {
     return '...';
 }
-add_filter( 'excerpt_more', 'australis_excerpt_more' );
+add_filter( 'excerpt_more', 'naturewealth_excerpt_more' );

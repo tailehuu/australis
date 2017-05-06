@@ -3,7 +3,7 @@
  * Template part for displaying top navigation
  *
  * @package WordPress
- * @subpackage australis
+ * @subpackage naturewealth
  * @since 1.0
  * @version 1.0
  */
@@ -18,7 +18,7 @@
                     style="border: none">
                 <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Australis</a>
+            <a class="navbar-brand page-scroll" href="#page-top">naturewealth</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

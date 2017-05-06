@@ -3,10 +3,10 @@
  * Index template
  *
  * @package WordPress
- * @subpackage australis
+ * @subpackage naturewealth
  * @since 1.0
  * @version 1.0
  */
 
 ?>
-<h1>Welcome to Australis!</h1>
+<h1>Welcome to naturewealth!</h1>

@@ -3,7 +3,7 @@
  * Footer template
  *
  * @package WordPress
- * @subpackage australis
+ * @subpackage naturewealth
  * @since 1.0
  * @version 1.0
  */
@@ -14,14 +14,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h4><strong>Australis</strong>
+                <h4><strong>naturewealth</strong>
                 </h4>
 
                 <p>367 George St
                     <br>Sydney NSW 2000, Australia</p>
                 <ul class="list-unstyled">
                     <li><i class="fa fa-phone fa-fw"></i> +61 2 8083 9400</li>
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:feedback@australis.com">feedback@australis.com</a>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:feedback@naturewealth.com">feedback@naturewealth.com</a>
                     </li>
                 </ul>
                 <br>
@@ -37,7 +37,7 @@
                     </li>
                 </ul>
                 <hr class="small">
-                <p class="text-muted">Copyright &copy; Australis
+                <p class="text-muted">Copyright &copy; naturewealth
                     2017</p>
             </div>
         </div>

@@ -3,7 +3,7 @@
  * Template part for displaying Carousel
  *
  * @package WordPress
- * @subpackage australis
+ * @subpackage naturewealth
  * @since 1.0
  * @version 1.0
  */
