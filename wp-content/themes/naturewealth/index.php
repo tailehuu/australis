@@ -9,4 +9,4 @@
  */
 
 ?>
-<h1>Welcome to naturewealth!</h1>
+<h1>Welcome to naturewealth.com.au!</h1>

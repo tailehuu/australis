@@ -14,14 +14,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h4><strong>naturewealth</strong>
+                <h4><strong>Ryan Wealth PTY. LTD.</strong>
                 </h4>
 
-                <p>367 George St
-                    <br>Sydney NSW 2000, Australia</p>
+                <p>51A Eton, Smithfield
+                    <br>Sydney NSW 2164, Australia</p>
                 <ul class="list-unstyled">
-                    <li><i class="fa fa-phone fa-fw"></i> +61 2 8083 9400</li>
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:feedback@naturewealth.com">feedback@naturewealth.com</a>
+                    <li><i class="fa fa-phone fa-fw"></i> +61 4 5048 3538</li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:contacts@naturewealth.com.au">contacts@naturewealth.com.au</a>
                     </li>
                 </ul>
                 <br>
@@ -37,7 +37,7 @@
                     </li>
                 </ul>
                 <hr class="small">
-                <p class="text-muted">Copyright &copy; naturewealth
+                <p class="text-muted">Copyright &copy; Ryan Wealth PTY. LTD.
                     2017</p>
             </div>
         </div>

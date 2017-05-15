@@ -1,9 +1,9 @@
 /*
-Theme Name: naturewealth
+Theme Name: Nature Wealth
 Theme URI:
 Author: Tai LE
 Author URI: http://lhtai181.wordpress.com/
-Description: William company theme
+Description: Ryan Wealth PTY. LTD. website
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -68,7 +68,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* Map */
 
 .map {
-    height: 600px;
+    height: 500px;
 }
 
 @media (max-width: 768px) {

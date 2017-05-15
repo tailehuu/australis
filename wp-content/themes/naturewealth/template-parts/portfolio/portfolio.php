@@ -20,7 +20,7 @@
             $args = array(
                 'posts_per_page' => 6,
                 'offset' => 1,
-                'category' => 4,
+                'category' => 5,
                 'nopaging' => true
             );
             $myposts = get_posts($args);

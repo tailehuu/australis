@@ -22,7 +22,7 @@
         <?php
         global $post;
         $i = 0;
-        $args = array('category' => 3);
+        $args = array('category' => 4);
         $myposts = get_posts($args);
         foreach ($myposts as $post) : setup_postdata($post);
             $i++;
