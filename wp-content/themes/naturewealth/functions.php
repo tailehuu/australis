@@ -125,7 +125,7 @@ function naturewealth_scripts()
     wp_enqueue_script('jquery.magnific-popup.min', get_template_directory_uri() . '/vendor/magnific-popup/jquery.magnific-popup.min.js', array(), false, true);
 
     // js creative
-    wp_enqueue_script('creative', get_template_directory_uri() . '/assets/js/creative.min.js', array(), false, true);
+    wp_enqueue_script('creative', get_template_directory_uri() . '/assets/js/creative.js', array(), false, true);
 
     // js custom
     wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js', array(), false, true);

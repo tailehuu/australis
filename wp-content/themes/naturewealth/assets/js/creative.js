@@ -26,7 +26,17 @@
         offset: {
             top: 100
         }
-    })
+    });
+
+    $("#mainNav").on('affixed-top.bs.affix', function(){
+        console.log("affix");
+        $('#mainNav > div > div.navbar-header > a > img').css({'height': 40, 'margin-top': -10})
+    });
+
+    $("#mainNav").on('affixed.bs.affix', function(){
+        console.log("affixed");
+        $('#mainNav > div > div.navbar-header > a > img').css({'height': 34, 'margin-top': -5})
+    });
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
