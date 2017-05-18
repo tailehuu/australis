@@ -29,13 +29,11 @@
     });
 
     $("#mainNav").on('affixed-top.bs.affix', function(){
-        console.log("affix");
-        $('#mainNav > div > div.navbar-header > a > img').css({'height': 40, 'margin-top': -10})
+        $('#mainNav > div > div.navbar-header > a > img').css({'height': 50, 'margin-top': -15});
     });
 
     $("#mainNav").on('affixed.bs.affix', function(){
-        console.log("affixed");
-        $('#mainNav > div > div.navbar-header > a > img').css({'height': 34, 'margin-top': -5})
+        $('#mainNav > div > div.navbar-header > a > img').css({'height': 44, 'margin-top': -12});
     });
 
     // Initialize and Configure Scroll Reveal Animation

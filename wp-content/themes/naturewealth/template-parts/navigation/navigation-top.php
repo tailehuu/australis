@@ -19,8 +19,8 @@
                 <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img alt="Brand" src="<?php bloginfo('template_directory'); ?>/assets/images/logo-bad.png"
-                    style="margin-top: -10px; height: 40px;" align="left">
+                <img alt="Brand" src="<?php bloginfo('template_directory'); ?>/assets/images/logo-271x100.png"
+                    style="margin-top: -15px; height: 50px;" align="left">
             </a>
         </div>
 

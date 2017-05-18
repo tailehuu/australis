@@ -65,6 +65,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+/* about */
+.about-link {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: rgba(255,255,255,.7);
+    text-decoration: underline;
+}
+.about-link:hover,
+.about-link:focus {
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+}
+
 /* Map */
 
 .map {
